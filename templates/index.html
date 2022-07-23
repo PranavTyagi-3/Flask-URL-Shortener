@@ -31,7 +31,7 @@
                 <div class="container">
                     <div class="text-white bg-dark border rounded border-0 p-4 p-md-5">
                         <h2 class="fw-bold text-white mb-3" style="text-align: center;">URL SHORTENER</h2>
-                        <form method="post">
+                        <form method="post" autocomplete="off">
                             <p style="font-size: 17px;margin-bottom: 7px;">Enter URL to shorten</p>
                             {% if url %}
                             <input type="text" name='lurl' value= {{ url }} style="width: 90%;margin-bottom: 20px;" inputmode="url" required="">
