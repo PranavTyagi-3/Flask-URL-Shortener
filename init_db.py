@@ -1,4 +1,5 @@
 import sqlite3
+#comment
 conn=sqlite3.connect('urlbase.db')
 conn.executescript('''drop table if exists urls;
 create table urls(
